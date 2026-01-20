@@ -1,0 +1,115 @@
+.distribution {
+    padding: 20px 0;
+    background: #fcf8f2;
+    scroll-margin-top: 80px;
+}
+
+h2.distribution__title {
+    @include mobile {
+        margin: 10px; 
+      }
+}
+
+.distribution__cta {
+    padding: 60px;
+    min-height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: stretch; 
+    background-image: url("../../img/flowers1.jpg");
+    background-size: cover;
+    background-position: center;
+
+    @include tablet {
+        grid-template-columns: 1fr;
+        padding: 30px;
+        gap: 20px;
+    }
+
+    @include mobile {
+        padding: 10px;
+        gap: 10px;
+    }
+}
+
+.distribution__benefits,
+.distribution__contact {
+    height: 100%;              
+    padding: 30px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255, 0.85);
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @include mobile {
+        padding: 15px;
+    }
+}
+
+.distribution__text {
+    font-size: 18px;
+    line-height: 1.65;
+    margin-bottom: 18px;
+
+      @include tablet {
+    font-size: 18px;
+  }
+  
+  @include mobile {
+    font-size: 16px;
+    line-height: 1.2;
+  }
+}
+
+.distribution__subtitle.title-3 {
+    font-size: 26px;
+    font-weight: 700;
+    margin: 35px 0 20px;
+    
+    @include mobile {
+        font-size: 22px;
+        margin: 25px 0 15px;
+    }
+}
+
+.distribution__list {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    @include mobile {
+        gap: 8px;
+    }
+    
+}
+
+.distribution__item {
+    position: relative;
+    padding-left: 28px;
+    font-size: 17px;
+    color: #3b2b18;
+
+    @include mobile {
+        font-size: 14px;
+        padding-left: 22px;
+    }
+}
+
+.distribution__item::before {
+    content: "📌";
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+p.distribution__contact-text {
+    @include mobile {
+        margin-bottom: 0;
+    }
+}

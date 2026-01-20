@@ -1,0 +1,24 @@
+:root {
+	--container-width: 1200px;
+	--container-padding: 15px;
+
+	--font-main:'Hagin Caps Medium', sans-serif;
+	--font-accent: 'Ysabeau SC', sans-serif;
+	--font-titles: var(--font-main);
+
+	--page-bg: #EAEAE1;
+	--text-color: #415F26;
+	--accent:  #95C11F;
+	--link-color: var(--text-color);
+
+
+    --laptop-size: 1199px;
+	--tablet-size: 959px;
+	--mobile-size: 599px;
+}
+
+.dark {
+    --page-bg: #252526;
+    --text-color: #fff;
+}
+

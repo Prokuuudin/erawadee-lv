@@ -1,0 +1,121 @@
+.marquee1 {
+	padding-top: 50px;	
+	background-color: var(--text-color);
+	color: #fff;
+
+	@include mobile {
+		padding-top: 0;
+		padding-bottom: 20px;
+	}
+}
+
+.marquee-container {
+	width: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+	background-color: #fff;
+	padding: 10px 0;	
+}
+
+.title-2.marquee-title {
+	padding: 0;
+	margin: 0;
+	margin-bottom: 40px;
+	@include mobile {
+		padding: 20px;
+		margin-bottom: 0;
+
+	}
+}
+
+.marquee1-content {
+	display: flex;
+	width: max-content;
+	align-items: center;
+	animation: marquee 50s linear infinite;
+}
+
+.marquee-item img {
+	width: auto;
+	height: 150px;
+	object-fit: cover;
+	margin: 0 10px;
+
+	@include mobile {
+		height: 180px;
+	}
+}
+
+.marquee-item {
+    display: flex;
+    flex-direction: column;
+	align-items: center;
+	padding: 10px 20px;
+	margin: 0 30px;
+    gap: 8px;
+    flex-shrink: 0;
+
+
+	@include mobile {
+		margin: 0 10px;
+		padding: 5px 10px;
+	}
+}
+
+.marquee-caption {	
+    font-size: 14px;
+    line-height: 1.2;
+    text-align: center;
+    color: #333;
+    white-space: nowrap;
+}
+
+@keyframes marquee {
+	from {
+		transform: translateX(0);
+	}
+
+	to {
+		transform: translateX(-50%);
+	}
+}
+
+.awards__text{
+	padding:60px;
+	text-align: center;
+	color: #fff;
+
+	@include mobile {
+		padding: 20px;
+	}
+}
+
+.marquee-item img {
+    // border: 2px solid red !important;
+}
+
+.awards__text {
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 20px;
+	line-height: 1.4;
+	margin: 0 auto;
+
+	@include tablet {
+		width: 100%;
+	}
+}	
+
+.awards__list li {
+    position: relative;
+    padding-left: 1.2em;
+}
+
+.awards__list li::before {
+    content: "★";
+    position: absolute;
+    left: 0;
+    top: 0;
+}

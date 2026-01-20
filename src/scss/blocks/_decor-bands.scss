@@ -1,0 +1,9 @@
+
+.decor-band1 {
+  width: 100%;
+  background-image: url("../../img/decor-band1.svg");
+  background-repeat: repeat-x;
+  background-size: auto 100%; /* КЛЮЧ! */
+  background-position: center;
+  padding-top: clamp(4.688rem, 2.983rem + 8.52vw, 9.375rem); /* высота ленты — регулируешь тут */
+}

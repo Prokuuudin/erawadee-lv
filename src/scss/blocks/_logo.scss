@@ -1,0 +1,12 @@
+  .logo {
+      width: 100px;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      transition: width 0.3s ease, height 0.3s ease;
+
+      @include mobile {
+          width: 55px;
+          height: 55px;
+      }
+  }

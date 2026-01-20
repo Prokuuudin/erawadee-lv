@@ -1,0 +1,37 @@
+.video {
+    padding-top: var(--section-padding-top);
+    @include mobile {
+        padding-top: var(--section-padding-top-mobile);
+    }
+    @include mobile {
+        padding: 0;
+    }
+}
+
+.container.video__container{
+    @include mobile {
+        padding: 0;
+    }
+    
+}
+.video__wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+    @include mobile {
+        padding: 0;
+    }   
+}
+
+iframe{
+    width: 100%;
+    max-height: 450px;
+    margin-bottom: 40px;
+
+    @include mobile {
+        margin-bottom: 0;
+    }
+}
