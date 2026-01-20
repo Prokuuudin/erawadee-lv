@@ -1,5 +1,7 @@
 .delivery-payment {
     padding: 50px 0;
+    padding-bottom: 0;
+    
     @include mobile {
         padding: 0;        
     }
@@ -24,6 +26,7 @@
 
 .delivery-payment__item {
     padding: 20px;
+    padding-bottom: 40px;
     flex-direction: column;
     display: grid;
     grid-template-rows: 1fr auto; /* контент занимает всё, ссылка внизу */

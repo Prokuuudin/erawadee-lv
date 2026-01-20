@@ -4,18 +4,12 @@ import ScrollReveal from 'scrollreveal';
 ScrollReveal({
 	distance: '30px',
 	duration: 2800,
-	// reset: true,
+	reset: true,
 });
 
-function scrollRevealFunc() {
-	ScrollReveal().reveal({
-		delay: 1300,
-		distance: '0px',
-		opacity: 0,
-	});
-
-	ScrollReveal().reveal({
-		delay: 400,
+function scrollRevealFunc() {	
+	ScrollReveal().reveal(`.title-1, .numbers-text, .awards__text`, {
+		delay: 800,
 		distance: '0px',
 		opacity: 0,
 	});
@@ -24,24 +18,18 @@ function scrollRevealFunc() {
 		origin: 'top',
 	});
 
-	ScrollReveal().reveal('.title-2 ', {
+	ScrollReveal().reveal(`.title-2`, {
 		delay: 300,
 		origin: 'top',
 	});
 
-	ScrollReveal().reveal(`.hero__title, .about__text, .contacts, .footer__company, .swiper, .contacts__links,`, {
+	ScrollReveal().reveal(`.hero__title, .about__text, .products-info__text, .distribution__text, .numbers__img, .tradition-card__body, .delivery__images, .delivery-payment__text, .delivery-payment__list, .contacts, .footer__company, .swiper, .contacts__links`, {
 		delay: 400,
 		origin: 'left',
 	});
 
-	ScrollReveal().reveal(``,
-		{
-			origin: 'right',
-		}
-	);
-
-	ScrollReveal().reveal(`.hero__slogan, .about__content, .footer__copyright, footer__socials`, {
-		// delay: 600,
+	ScrollReveal().reveal(`.hero__slogan, .btn-link, .about__container, .distribution__benefits, .distribution__contact, .benefits__content, .numbers__content, .tradition-card__img, .blog-info__text, .blog-link, .footer__copyright, .footer__socials`, {
+		delay: 600,
 		origin: 'bottom',
 	});
 
