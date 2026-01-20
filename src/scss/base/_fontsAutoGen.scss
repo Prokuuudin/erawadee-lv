@@ -1,4 +1,11 @@
 @font-face {
+	font-family: Hagin Caps Thin;
+	font-display: swap;
+	src: url("../fonts/Hagin Caps Thin.woff2") format("woff2"), url("../fonts/Hagin Caps Thin.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
 	font-family: Hagin Caps Medium;
 	font-display: swap;
 	src: url("../fonts/Hagin Caps Medium.woff2") format("woff2"), url("../fonts/Hagin Caps Medium.woff") format("woff");
@@ -15,15 +22,15 @@
 @font-face {
 	font-family: YsabeauSC;
 	font-display: swap;
-	src: url("../fonts/YsabeauSC-ExtraBold.woff2") format("woff2"), url("../fonts/YsabeauSC-ExtraBold.woff") format("woff");
-	font-weight: 800;
+	src: url("../fonts/YsabeauSC-Black.woff2") format("woff2"), url("../fonts/YsabeauSC-Black.woff") format("woff");
+	font-weight: 900;
 	font-style: normal;
 }
 @font-face {
 	font-family: YsabeauSC;
 	font-display: swap;
-	src: url("../fonts/YsabeauSC-Light.woff2") format("woff2"), url("../fonts/YsabeauSC-Light.woff") format("woff");
-	font-weight: 300;
+	src: url("../fonts/YsabeauSC-ExtraBold.woff2") format("woff2"), url("../fonts/YsabeauSC-ExtraBold.woff") format("woff");
+	font-weight: 800;
 	font-style: normal;
 }
 @font-face {
@@ -36,22 +43,15 @@
 @font-face {
 	font-family: YsabeauSC;
 	font-display: swap;
-	src: url("../fonts/YsabeauSC-Medium.woff2") format("woff2"), url("../fonts/YsabeauSC-Medium.woff") format("woff");
-	font-weight: 500;
+	src: url("../fonts/YsabeauSC-Light.woff2") format("woff2"), url("../fonts/YsabeauSC-Light.woff") format("woff");
+	font-weight: 300;
 	font-style: normal;
 }
 @font-face {
 	font-family: YsabeauSC;
 	font-display: swap;
-	src: url("../fonts/YsabeauSC-Black.woff2") format("woff2"), url("../fonts/YsabeauSC-Black.woff") format("woff");
-	font-weight: 900;
-	font-style: normal;
-}
-@font-face {
-	font-family: Hagin Caps Thin;
-	font-display: swap;
-	src: url("../fonts/Hagin Caps Thin.woff2") format("woff2"), url("../fonts/Hagin Caps Thin.woff") format("woff");
-	font-weight: 400;
+	src: url("../fonts/YsabeauSC-Medium.woff2") format("woff2"), url("../fonts/YsabeauSC-Medium.woff") format("woff");
+	font-weight: 500;
 	font-style: normal;
 }
 @font-face {
