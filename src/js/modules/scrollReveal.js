@@ -23,12 +23,12 @@ function scrollRevealFunc() {
 		origin: 'top',
 	});
 
-	ScrollReveal().reveal(`.hero__title, .about__text, .products-info__text, .distribution__text, .numbers__img, .tradition-card__body, .delivery__images, .delivery-payment__text, .delivery-payment__list, .contacts, .footer__company, .swiper, .contacts__links`, {
+	ScrollReveal().reveal(`.hero__title, .about__text, .products-info__text, .distribution__text, .card-benefit__header, .numbers__img, .tradition-card__body, .delivery__images, .delivery-payment__text, .delivery-payment__list, .contacts, .footer__company, .swiper, .contacts__links`, {
 		delay: 400,
 		origin: 'left',
 	});
 
-	ScrollReveal().reveal(`.hero__slogan, .btn-link, .about__container, .distribution__benefits, .distribution__contact, .benefits__content, .numbers__content, .tradition-card__img, .blog-info__text, .blog-link, .footer__copyright, .footer__socials`, {
+	ScrollReveal().reveal(`.hero__slogan, .btn-link, .about__container, .distribution__benefits, .distribution__contact, .card-benefit__text, .numbers__content, .tradition-card__img, .blog-info__text, .blog-link, .footer__copyright, .footer__socials`, {
 		delay: 600,
 		origin: 'bottom',
 	});

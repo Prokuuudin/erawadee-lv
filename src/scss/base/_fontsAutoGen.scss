@@ -13,17 +13,17 @@
 	font-style: normal;
 }
 @font-face {
-	font-family: Hagin Caps Thin;
+	font-family: YsabeauSC;
 	font-display: swap;
-	src: url("../fonts/Hagin Caps Thin.woff2") format("woff2"), url("../fonts/Hagin Caps Thin.woff") format("woff");
-	font-weight: 400;
+	src: url("../fonts/YsabeauSC-ExtraBold.woff2") format("woff2"), url("../fonts/YsabeauSC-ExtraBold.woff") format("woff");
+	font-weight: 800;
 	font-style: normal;
 }
 @font-face {
 	font-family: YsabeauSC;
 	font-display: swap;
-	src: url("../fonts/YsabeauSC-ExtraBold.woff2") format("woff2"), url("../fonts/YsabeauSC-ExtraBold.woff") format("woff");
-	font-weight: 800;
+	src: url("../fonts/YsabeauSC-Bold.woff2") format("woff2"), url("../fonts/YsabeauSC-Bold.woff") format("woff");
+	font-weight: 700;
 	font-style: normal;
 }
 @font-face {
@@ -43,15 +43,15 @@
 @font-face {
 	font-family: YsabeauSC;
 	font-display: swap;
-	src: url("../fonts/YsabeauSC-Bold.woff2") format("woff2"), url("../fonts/YsabeauSC-Bold.woff") format("woff");
-	font-weight: 700;
+	src: url("../fonts/YsabeauSC-Light.woff2") format("woff2"), url("../fonts/YsabeauSC-Light.woff") format("woff");
+	font-weight: 300;
 	font-style: normal;
 }
 @font-face {
-	font-family: YsabeauSC;
+	font-family: Hagin Caps Thin;
 	font-display: swap;
-	src: url("../fonts/YsabeauSC-Light.woff2") format("woff2"), url("../fonts/YsabeauSC-Light.woff") format("woff");
-	font-weight: 300;
+	src: url("../fonts/Hagin Caps Thin.woff2") format("woff2"), url("../fonts/Hagin Caps Thin.woff") format("woff");
+	font-weight: 400;
 	font-style: normal;
 }
 @font-face {
