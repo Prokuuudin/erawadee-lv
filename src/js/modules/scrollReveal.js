@@ -4,7 +4,7 @@ import ScrollReveal from 'scrollreveal';
 ScrollReveal({
 	distance: '30px',
 	duration: 2800,
-	reset: true,
+	// reset: true,
 });
 
 function scrollRevealFunc() {	
